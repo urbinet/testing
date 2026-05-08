@@ -1,7 +1,6 @@
 - defaultTab: nodes
   description: ''
   executionEnabled: true
-  id: 5911eb7a-d84c-408d-9400-3fae4db9e92c
   loglevel: INFO
   name: hostname
   nodeFilterEditable: false
@@ -30,4 +29,4 @@
             </table>
     strategy: node-first
   user: gaston
-  uuid: 5911eb7a-d84c-408d-9400-3fae4db9e92c
+
