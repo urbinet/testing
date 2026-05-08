@@ -2,7 +2,7 @@
   description: ''
   executionEnabled: true
   loglevel: INFO
-  name: hostname
+  name: jobtest
   nodeFilterEditable: false
   plugins:
     ExecutionLifecycle: null
