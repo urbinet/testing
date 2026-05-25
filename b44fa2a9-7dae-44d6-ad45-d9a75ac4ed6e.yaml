@@ -1,0 +1,16 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: true
+  loglevel: INFO
+  name: '516'
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: {}
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - exec: hostname
+    keepgoing: false
+    strategy: node-first
+
