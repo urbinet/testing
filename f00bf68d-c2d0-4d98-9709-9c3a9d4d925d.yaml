@@ -11,6 +11,7 @@
   sequence:
     commands:
     - exec: hostname
+    - exec: pwd
     keepgoing: false
     pluginConfig:
       WorkflowStrategy:
