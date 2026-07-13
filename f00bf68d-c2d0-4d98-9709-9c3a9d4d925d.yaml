@@ -12,6 +12,7 @@
     commands:
     - exec: hostname
     - exec: pwd
+    - exec: pwd
     keepgoing: false
     pluginConfig:
       WorkflowStrategy:

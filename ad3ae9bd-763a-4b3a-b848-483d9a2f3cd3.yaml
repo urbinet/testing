@@ -5,12 +5,13 @@
   name: rbacloud
   nodeFilterEditable: false
   plugins:
-    ExecutionLifecycle: {}
+    ExecutionLifecycle: null
   scheduleEnabled: true
   schedules: []
   sequence:
     commands:
     - exec: hostname
+    - exec: pwd
     keepgoing: false
     pluginConfig:
       WorkflowStrategy:
