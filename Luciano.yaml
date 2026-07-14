@@ -2,18 +2,16 @@
   description: ''
   executionEnabled: true
   loglevel: INFO
-  name: hostname
+  name: Luciano
   nodeFilterEditable: false
   plugins:
     ExecutionLifecycle: null
-  runnerSelector:
-    runnerFilterMode: LOCAL
-    runnerFilterType: LOCAL_RUNNER
   scheduleEnabled: true
   schedules: []
   sequence:
     commands:
     - exec: hostname
+    - exec: pwd
     - exec: pwd
     keepgoing: false
     pluginConfig:

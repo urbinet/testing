@@ -2,13 +2,10 @@
   description: ''
   executionEnabled: true
   loglevel: INFO
-  name: hostname
+  name: rbacloud
   nodeFilterEditable: false
   plugins:
     ExecutionLifecycle: null
-  runnerSelector:
-    runnerFilterMode: LOCAL
-    runnerFilterType: LOCAL_RUNNER
   scheduleEnabled: true
   schedules: []
   sequence:
